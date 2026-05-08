@@ -1,2 +1,21 @@
-# k8s-production-deployment
-Production-grade Kubernetes deployment with CI/CD, monitoring, ingress, autoscaling, and DevOps best practices.
+# Kubernetes Production Deployment
+
+This repository demonstrates a production-style Kubernetes deployment workflow using Kubernetes manifests, CI/CD automation, autoscaling, ingress, and monitoring integration.
+
+## Tech Stack
+
+- Kubernetes
+- Docker
+- GitHub Actions
+- NGINX
+- Prometheus
+- Grafana
+
+## Features
+
+- Kubernetes deployment manifests
+- Horizontal Pod Autoscaling
+- Ingress configuration
+- CI/CD automation
+- Monitoring integration
+- Production namespace isolation
