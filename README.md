@@ -69,7 +69,7 @@ HPA	Autoscaling
 
 # CI/CD
 
-This repository includes:
+This repo includes:
 
 GitHub Actions workflow:
 Jenkins pipeline example
@@ -89,3 +89,8 @@ SSL/TLS configuration
 Author:
 Akshay Barapatre
 DevOps Engineer
+
+```md id="m5plg3"
+# Documentation
+
+- [Architecture Overview](docs/architecture.md)

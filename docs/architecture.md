@@ -1,20 +1,35 @@
-# Architecture Overview
+# Kubernetes Deployment Architecture
 
-## Workflow
+## Overview
 
-Developer Pushes Code → GitHub Actions/Jenkins → Kubernetes Deployment
+This project demonstrates a production-oriented Kubernetes deployment workflow with CI/CD automation and monitoring integration.
 
-## Components
+---
 
-- GitHub Repository
-- CI/CD Pipeline
-- Kubernetes Cluster
-- Ingress Controller
-- Monitoring Stack
+# Architecture Flow
 
-## Deployment Strategy
-
-- Rolling Updates
-- Namespace Isolation
-- Horizontal Pod Autoscaling
-- Resource Requests and Limits
+```text
+Developer
+   │
+   ▼
+GitHub Repository
+   │
+   ▼
+GitHub Actions / Jenkins
+   │
+   ▼
+Docker Build
+   │
+   ▼
+Kubernetes Cluster
+   │
+   ├── Deployment
+   ├── Service
+   ├── Ingress
+   ├── ConfigMap
+   └── HPA
+   │
+   ▼
+Monitoring Stack
+   ├── Prometheus
+   └── Grafana
